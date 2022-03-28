@@ -53,6 +53,10 @@ body {
     text-decoration: none;
 }
 
+#navbar h1 {
+    font-size: 1.7em;
+}
+
 #main-doc {
     top: 0;
     margin-left: 350px;
@@ -60,9 +64,16 @@ body {
 
 #main-doc article {
     display: grid;
-    
     grid-template-columns: auto 400px;
-    grid-template-rows: 100px;
+    grid-template-rows: auto;
+}
+
+.main-section figure {
+    margin: 0;
+}
+
+.area-pic {
+    margin: 0px 40px 10px 40px;
 }
 
 .content-img {
@@ -71,12 +82,33 @@ body {
 }
 
 .content-img > img{
-    max-width:100%;
-    height:100%;
+    max-width: 100%;
+    height: 100%;
     object-fit: contain;
 }
 
 .content-img > figcaption {
     font-size: 0.8em;
+    text-align: center;
 }
 
+.area-technical-description {
+    display: grid;
+    grid-template-columns: 100px auto;
+}
+
+.area-technical-description p {
+    margin: 5px 0px 5px 0px;
+}
+
+.area-technical-description .block-3 {
+    margin: 5px 0px 5px 0px;
+    display: grid;
+    grid-template-columns: 20px 20px auto;
+}
+
+.area-technical-description .block-1 {
+    margin: 5px 0px 5px 0px;
+    display: grid;
+    grid-template-columns: auto;
+}
