@@ -44,7 +44,9 @@ body {
 }
 
 #aside-doc ul > li {
-    padding-left: 2em;
+    margin: 10px 0px 0px 0px;
+    padding: 0em 0em 10px 2em;
+    font-size: 1.1em;
     list-style-type: none;
     border-bottom: 1px solid var(--main-color);
 }
@@ -57,6 +59,11 @@ body {
 #navbar h1 {
     font-size: 1.7em;
 }
+
+#navbar a{
+    color: var(--main-color);
+    text-decoration: none;
+} 
 
 #main-doc {
     top: 0;
