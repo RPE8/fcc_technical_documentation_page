@@ -90,10 +90,12 @@ body {
 }
 
 .main-section h2 {
+    font-size: 1.6em;
     border-bottom: 1px solid var(--main-color);
 }
 
 .main-section h3 {
+    font-size: 1.2em;
     border-bottom: 1px solid var(--main-color);
 }
 
